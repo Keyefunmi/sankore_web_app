@@ -41475,6 +41475,7 @@ a.u-link.u-text-hover-grey-90:hover {
         --theme-sheet-width-md: 720px;
         --theme-sheet-width-sm: 540px;
         --theme-sheet-width-xs: 340px;
+        --theme-sheet-width-xxl: 1320px;
         
         
         
@@ -41889,6 +41890,19 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 1.25rem;
   font-family: "Open Sans", sans-serif;
 }
+@media (max-width: 1399px) {
+  .u-header .u-group-1 {
+    height: auto;
+  }
+
+  .u-header .u-nav-2 {
+    margin-right: 42px;
+  }
+
+  .u-header .u-nav-4 {
+    margin-right: 42px;
+  }
+}
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
     width: 284px;
@@ -41901,7 +41915,6 @@ a.u-link.u-text-hover-grey-90:hover {
     min-height: 58px;
     margin-top: -62px;
     margin-bottom: 34px;
-    height: auto;
   }
 
   .u-header .u-text-1 {
@@ -41910,14 +41923,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-header .u-menu-1 {
     margin-top: -46px;
-  }
-
-  .u-header .u-nav-2 {
-    margin-right: 42px;
-  }
-
-  .u-header .u-nav-4 {
-    margin-right: 42px;
   }
 }
 @media (max-width: 991px) {
@@ -42121,7 +42126,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-text-3 {
-  font-family: "DM Sans";
+  font-family: KonnectRegular;
   font-size: 0.875rem;
   margin: 20px auto 0 0;
 }
@@ -42132,21 +42137,40 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-text-4 {
-  font-family: "DM Sans";
+  font-family: KonnectRegular;
   font-size: 0.875rem;
   margin: 12px auto 0 0;
+}
+
+.u-footer .u-btn-5 {
+  background-image: none;
+  font-family: KonnectRegular;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .u-footer .u-text-5 {
-  font-family: "DM Sans";
+  font-family: KonnectRegular;
   font-size: 0.875rem;
   margin: 12px auto 0 0;
 }
 
+.u-footer .u-btn-6 {
+  background-image: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .u-footer .u-text-6 {
-  font-family: "DM Sans";
+  font-family: KonnectRegular;
   font-size: 0.875rem;
   margin: 12px auto 0 0;
+}
+
+.u-footer .u-btn-7 {
+  background-image: none;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .u-footer .u-container-layout-5 {
@@ -42162,35 +42186,48 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-text-8 {
-  font-family: "DM Sans";
+  font-family: KonnectRegular;
   font-size: 0.875rem;
   margin: 20px auto 0 0;
 }
 
+.u-footer .u-btn-8 {
+  background-image: none;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .u-footer .u-text-9 {
-  font-family: "DM Sans";
+  font-family: KonnectRegular;
   font-size: 0.875rem;
   margin: 12px auto 0 0;
 }
 
-.u-footer .u-btn-5 {
+.u-footer .u-btn-9 {
   background-image: none;
   padding: 0;
 }
 
 .u-footer .u-text-10 {
-  font-family: "DM Sans";
+  font-family: KonnectRegular;
   font-size: 0.875rem;
   margin: 12px auto 0 0;
+}
+
+.u-footer .u-btn-10 {
+  background-image: none;
+  font-family: KonnectRegular;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .u-footer .u-text-11 {
-  font-family: "DM Sans";
+  font-family: KonnectRegular;
   font-size: 0.875rem;
   margin: 12px auto 0 0;
 }
 
-.u-footer .u-btn-6 {
+.u-footer .u-btn-11 {
   background-image: none;
   padding: 0;
 }
@@ -42208,45 +42245,45 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-text-13 {
-  font-family: "DM Sans";
+  font-family: KonnectRegular;
   font-size: 0.875rem;
   margin: 20px auto 0 0;
 }
 
-.u-footer .u-btn-7 {
+.u-footer .u-btn-12 {
   background-image: none;
   padding: 0;
 }
 
 .u-footer .u-text-14 {
-  font-family: "DM Sans";
+  font-family: KonnectRegular;
   font-size: 0.875rem;
   margin: 12px auto 0 0;
 }
 
-.u-footer .u-btn-8 {
+.u-footer .u-btn-13 {
   background-image: none;
   padding: 0;
 }
 
 .u-footer .u-text-15 {
-  font-family: "DM Sans";
+  font-family: KonnectRegular;
   font-size: 0.875rem;
   margin: 12px auto 0 0;
 }
 
-.u-footer .u-btn-9 {
+.u-footer .u-btn-14 {
   background-image: none;
   padding: 0;
 }
 
 .u-footer .u-text-16 {
-  font-family: "DM Sans";
+  font-family: KonnectRegular;
   font-size: 0.875rem;
   margin: 12px auto 0 0;
 }
 
-.u-footer .u-btn-10 {
+.u-footer .u-btn-15 {
   background-image: none;
   padding: 0;
 }
@@ -42264,25 +42301,25 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-text-18 {
-  font-family: "DM Sans";
+  font-family: KonnectRegular;
   font-size: 0.875rem;
   margin: 20px auto 0 0;
 }
 
 .u-footer .u-text-19 {
-  font-family: "DM Sans";
+  font-family: KonnectRegular;
   font-size: 0.875rem;
   margin: 12px auto 0 0;
 }
 
 .u-footer .u-text-20 {
-  font-family: "DM Sans";
+  font-family: KonnectRegular;
   font-size: 0.875rem;
   margin: 12px auto 0 0;
 }
 
 .u-footer .u-text-21 {
-  font-family: "DM Sans";
+  font-family: KonnectRegular;
   font-size: 0.875rem;
   margin: 12px auto 0 0;
 }
@@ -42418,6 +42455,36 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 0.75rem;
   margin: 25px 0 0 auto;
 }
+@media (max-width: 1399px) {
+  .u-footer .u-group-1 {
+    height: auto;
+  }
+
+  .u-footer .u-btn-5 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .u-footer .u-btn-6 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .u-footer .u-btn-7 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .u-footer .u-btn-8 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .u-footer .u-btn-10 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
     min-height: 521px;
@@ -42438,10 +42505,6 @@ a.u-link.u-text-hover-grey-90:hover {
 
   .u-footer .u-layout-cell-2 {
     min-height: 272px;
-  }
-
-  .u-footer .u-group-1 {
-    height: auto;
   }
 
   .u-footer .u-repeater-1 {
